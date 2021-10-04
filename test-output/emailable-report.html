@@ -8,63 +8,33 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">2</td><td class="num">0</td><td class="num attn">1</td><td class="num">131,907</td><td></td><td></td></tr>
+<tr><th colspan="7">Suite</th></tr>
+<tr><td><a href="#t0">Testing1</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">87,202</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Testing2</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">231,423</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Testing3</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">99,290</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">Testing4</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">67,448</td><td></td><td></td></tr>
+<tr><td><a href="#t4">Testing5</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">27,461</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t5">Testing6</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">118,423</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">12</th><th class="num">0</th><th class="num">0</th><th class="num">631,247</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">EaseMyTrip.TC34</td><td><a href="#m0">common</a></td><td rowspan="1">1633342221813</td><td rowspan="1">8249</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">EaseMyTrip.TC34</td><td><a href="#m1">TC38</a></td><td rowspan="1">1633342104374</td><td rowspan="1">58237</td></tr><tr class="passedeven"><td><a href="#m2">TC52</a></td><td rowspan="1">1633342162620</td><td rowspan="1">59190</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Testing1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">EaseMyTrip.TC1</td><td><a href="#m0">TC34</a></td><td rowspan="1">1633349582657</td><td rowspan="1">55209</td></tr><tr class="passedeven"><td><a href="#m1">TC35</a></td><td rowspan="1">1633349637871</td><td rowspan="1">25147</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Testing2 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">EaseMyTrip.TC2</td><td><a href="#m2">TC38</a></td><td rowspan="1">1633349669423</td><td rowspan="1">57414</td></tr><tr class="passedeven"><td><a href="#m3">TC39</a></td><td rowspan="1">1633349726842</td><td rowspan="1">56824</td></tr><tr class="passedeven"><td><a href="#m4">TC40</a></td><td rowspan="1">1633349783669</td><td rowspan="1">53362</td></tr><tr class="passedeven"><td><a href="#m5">TC53</a></td><td rowspan="1">1633349837035</td><td rowspan="1">57464</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Testing3 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">EaseMyTrip.TC3</td><td><a href="#m6">TC41</a></td><td rowspan="1">1633349900162</td><td rowspan="1">61393</td></tr><tr class="passedeven"><td><a href="#m7">TC42</a></td><td rowspan="1">1633349961556</td><td rowspan="1">32316</td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">Testing4 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">EaseMyTrip.TC4</td><td><a href="#m8">TC52</a></td><td rowspan="1">1633349999645</td><td rowspan="1">61645</td></tr></tbody>
+<tbody id="t4"><tr><th colspan="4">Testing5 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">EaseMyTrip.DataDrivenTesting1</td><td><a href="#m9">TC43</a></td><td rowspan="1">1633350072731</td><td rowspan="1">16211</td></tr></tbody>
+<tbody id="t5"><tr><th colspan="4">Testing6 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">EaseMyTrip.PropertyExample1</td><td><a href="#m10">TC36</a></td><td rowspan="1">1633350094917</td><td rowspan="1">51921</td></tr><tr class="passedeven"><td><a href="#m11">TC37</a></td><td rowspan="1">1633350146840</td><td rowspan="1">59404</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">EaseMyTrip.TC34#common</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//li[@class=&apos;click-mul border-rht mul-hid&apos;]&quot;}
-  (Session info: chrome=94.0.4606.71)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-OOH5VV8&apos;, ip: &apos;192.168.0.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\NAGILL~1.BAL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64196}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: cdcdbbb2c5cf0699ab79ce91b133f832
-*** Element info: {Using=xpath, value=//li[@class=&apos;click-mul border-rht mul-hid&apos;]}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at EaseMyTrip.TC34.common(TC34.java:857)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">EaseMyTrip.TC34#TC38</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">EaseMyTrip.TC34#TC52</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Testing1</h2><h3 id="m0">EaseMyTrip.TC1#TC34</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">EaseMyTrip.TC1#TC35</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Testing2</h2><h3 id="m2">EaseMyTrip.TC2#TC38</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">EaseMyTrip.TC2#TC39</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">EaseMyTrip.TC2#TC40</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">EaseMyTrip.TC2#TC53</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Testing3</h2><h3 id="m6">EaseMyTrip.TC3#TC41</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">EaseMyTrip.TC3#TC42</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Testing4</h2><h3 id="m8">EaseMyTrip.TC4#TC52</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Testing5</h2><h3 id="m9">EaseMyTrip.DataDrivenTesting1#TC43</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>bangalore</td><td>mumbai</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Testing6</h2><h3 id="m10">EaseMyTrip.PropertyExample1#TC36</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">EaseMyTrip.PropertyExample1#TC37</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
