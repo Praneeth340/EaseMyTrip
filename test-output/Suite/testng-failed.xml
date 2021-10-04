@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Testing1(failed)">
+    <classes>
+      <class name="EaseMyTrip.TC34">
+        <methods>
+          <include name="TC52"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="TC38"/>
+        </methods>
+      </class> <!-- EaseMyTrip.TC34 -->
+    </classes>
+  </test> <!-- Testing1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
